@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    direction: rtl;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-right{
+    height: 80px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    margin-right: 20px;
+
+}
+.header-left{
+    height: 80px;
+    width: 10%;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+width: 20%;
+height:100%;
+
+
+}
+.logo img{
+    height: 100%;
+    width: 80%;
+    padding-right: 15px;
+}
+.header-right nav{
+   
+    height: 100%;
+    width: 75%;
+    
+
+    
+}
+ul{
+    padding: 16px 0;
+}
+li{
+    display: inline;
+    padding-right: 30px;
+    font-size: 22px;
+}
+
+.header button{
+    height: 43px;
+    width: 80%;
+    background-color: #2F5EE0;
+    border-color: hsla(0, 0%, 100%, 0.326); 
+     border-width: 2px; 
+    display: inline; 
+    margin: 20px;
+    border-radius: 5px; 
+    color: #ccc;
+  font-size: 17px;
+}
+.page-intro{
+    height: 350px;
+    width: 100%;
+background: #001f24;
+background: linear-gradient(90deg, rgba(0, 31, 36, 1) 0%, rgba(25, 106, 227, 1) 0%, rgba(30, 124, 217, 1) 35%, rgba(41, 63, 186, 1) 100%);
+
+
+    display: flex;
+
+}
+.page-intro-right{
+    height: 100%;
+    width: 50%;
+    margin-right: 48px;
+   
+   
+}
+.page-intro-right p{
+    font-size: 22px;
+    padding-right: 20px;
+    color: #ccc;
+}
+h1{
+    padding:0 120px;
+    color: #ccc;
+    
+}
+.page-intro-right-button{
+    height: 173px;
+   
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   
+}
+.intro-button{
+ 
+    border-radius: 3px;
+     height: 50px;
+    font-size: 16px;
+  padding: 12px 24px;      
+  border-width: 2px;      
+  border-style: solid;     
+  border-color: hsla(0, 0%, 100%, 0.326);      
+  border-radius: 5px;
+  margin:0 6px;     
+  color: white;
+  background-color: transparent;
+}
+    
+.page-intro-left{
+     height: 100%;
+    width: 50%;
+    margin-left:  48px;
+    background-color:goldenrod;
+}    
+.page-intro-left img{
+    height: 350px;
+    width: 100%;
+}
+
+h2{
+    padding-right: 60px;
+    margin-top: 24px;
+}
+.books{
+    height: 400px;
+    width: 100%;
+   
+    display: flex;
+      justify-content: space-evenly;    /* چیدمان افقی وسط */
+  align-items: center; 
+}
+.part{
+    height: 350;
+    width: 243px;
+    
+    margin: 24px;
+    border: 1px solid #ccc; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* سایه ملایم */
+}
+.part>img{
+    height: 300px;
+    width: 100%;
+    
+}
+.book-info{
+    display: flex;
+    justify-content: space-between; /* عنوان راست، قیمت چپ */
+  align-items: center;
+
+  height: 50px;
+}
+.title{
+    
+    display: inline-block;
+    text-align: right;
+   /* margin: 15px 10px 15px 24px; */
+}
+.price{
+    display: inline-block;
+    text-align: left;
+    /* margin: 15px 36px 15px 10px; */
+  
+    
+
+}
+.footer{
+   background-color:  #2F5EE0;
+    height: 270px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.footer-part{
+    width: 25%;
+    height:250px ;
+    margin:0 35px;
+    color:#ccc
+}
+.footer-part img{
+    margin: 25px;
+
+}
